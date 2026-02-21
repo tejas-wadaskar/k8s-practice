@@ -1,0 +1,12 @@
+apriVersion : v1 
+kind : Pod
+metadata : 
+  name : my-pod 
+  Labels :
+    app : my_app
+spec : 
+  containers :
+  - name : my-container 
+    image : nginx:latest 
+    ports :
+    - containerPort : 80
